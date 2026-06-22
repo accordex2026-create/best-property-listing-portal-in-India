@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Best Property Listing Portal in India | Dial2Hire.com</title>
+
+  <meta name="description" content="Dial2Hire.com is a property listing portal in India where users can search flats, rental homes, property agents, post property online and send buyer inquiries for sale and rent properties.">
+
+  <meta name="keywords" content="best property listing portal in India, Dial2Hire, post property online, buyer inquiry, property agents, flats for sale in Navi Mumbai, flats for rent in Navi Mumbai">
+
+  <meta name="robots" content="index, follow">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      color: #1f2937;
+      background: #f5f7fb;
+    }
+ .banner-image {
+    margin-bottom: 28px;
+    border-radius: 18px;
+    overflow: hidden;
+    background: #ffffff;
+  }
+
+  .banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+    .page-wrapper {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 24px 16px 60px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #082f49, #0f766e);
+      color: #ffffff;
+      padding: 54px 34px;
+      border-radius: 22px;
+      margin-bottom: 28px;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.18);
+    }
+
+    .hero h1 {
+      font-size: 38px;
+      line-height: 1.25;
+      margin: 0 0 16px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 850px;
+      margin: 0 0 24px;
+      color: #e0f2fe;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 10px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: 0.2s ease;
+    }
+
+    .btn-primary {
+      background: #facc15;
+      color: #111827;
+    }
+
+    .btn-secondary {
+      background: #ffffff;
+      color: #075985;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.95;
+    }
+
+    .section {
+      background: #ffffff;
+      padding: 32px;
+      border-radius: 18px;
+      margin-bottom: 22px;
+      box-shadow: 0 8px 26px rgba(15, 23, 42, 0.07);
+    }
+
+    h2 {
+      font-size: 28px;
+      margin: 0 0 14px;
+      color: #0f172a;
+    }
+
+    h3 {
+      font-size: 21px;
+      margin: 24px 0 8px;
+      color: #0f172a;
+    }
+
+    p {
+      margin: 0 0 15px;
+    }
+
+    a {
+      color: #0369a1;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 22px;
+    }
+
+    .card {
+      border: 1px solid #e5e7eb;
+      border-radius: 16px;
+      padding: 22px;
+      background: #ffffff;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .card p {
+      color: #4b5563;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .badge {
+      background: #ecfeff;
+      color: #155e75;
+      border: 1px solid #a5f3fc;
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .link-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-top: 20px;
+    }
+
+    .link-box {
+      display: block;
+      padding: 18px;
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      color: #0f172a;
+      text-decoration: none;
+    }
+
+    .link-box strong {
+      display: block;
+      color: #0369a1;
+      margin-bottom: 5px;
+    }
+
+    .steps {
+      counter-reset: step;
+      margin-top: 18px;
+    }
+
+    .step {
+      position: relative;
+      padding: 18px 18px 18px 58px;
+      background: #f8fafc;
+      border-radius: 14px;
+      margin-bottom: 12px;
+      border: 1px solid #e5e7eb;
+    }
+
+    .step::before {
+      counter-increment: step;
+      content: counter(step);
+      position: absolute;
+      left: 18px;
+      top: 18px;
+      width: 28px;
+      height: 28px;
+      background: #0f766e;
+      color: #ffffff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+    }
+
+    .cta-box {
+      background: #0f172a;
+      color: #ffffff;
+      padding: 34px;
+      border-radius: 18px;
+      text-align: center;
+    }
+
+    .cta-box h2 {
+      color: #ffffff;
+    }
+
+    .cta-box p {
+      color: #d1d5db;
+      max-width: 760px;
+      margin: 0 auto 22px;
+    }
+
+    footer {
+      text-align: center;
+      color: #6b7280;
+      font-size: 14px;
+      padding-top: 20px;
+    }
+
+    @media (max-width: 850px) {
+      .hero h1 {
+        font-size: 30px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .link-list {
+        grid-template-columns: 1fr;
+      }
+
+      .section,
+      .hero {
+        padding: 24px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <main class="page-wrapper">
+
+```
+<section class="hero">
+    <div class="banner-image">
+  <img src="assets/Dial2hire-banner.png" alt="Dial2Hire property listing portal in India">
+</div>
+  <h1>Best Property Listing Portal in India – Dial2Hire.com</h1>
+  <p>
+    Dial2Hire.com is an online property listing portal in India built for buyers, tenants, owners, builders and local property agents. Users can search flats, rental homes, shops, offices, land and commercial properties, while owners and agents can post property online and connect with genuine inquiries.
+  </p>
+
+  <div class="hero-buttons">
+    <a class="btn btn-primary" href="https://dial2hire.com/user/property-post">Post Property Online</a>
+    <a class="btn btn-secondary" href="https://dial2hire.com/buyer-inquiry/send-inquiry">Send Buyer Inquiry</a>
+    <a class="btn btn-secondary" href="https://dial2hire.com/property-agents">Find Property Agents</a>
+  </div>
+</section>
+
+<section class="section">
+  <h2>About Dial2Hire Property Platform</h2>
+  <p>
+    Dial2Hire.com helps users discover property options across Indian cities with a simple and local-first approach. The platform supports property search, property posting, buyer inquiry, rental inquiry and agent discovery in one place. Whether someone wants to buy a flat, rent a home, list a property or connect with a local real estate agent, Dial2Hire provides useful property discovery tools.
+  </p>
+
+  <p>
+    The platform is useful for people searching residential and commercial properties such as flats, apartments, houses, shops, office spaces, warehouses, plots and land. Dial2Hire also helps property advertisers improve visibility by allowing them to post property details, location, price, images and contact information for interested buyers or tenants.
+  </p>
+
+  <div class="badge-row">
+    <span class="badge">Property Listings</span>
+    <span class="badge">Buyer Inquiry</span>
+    <span class="badge">Owner & Agent Listings</span>
+    <span class="badge">Rental Properties</span>
+    <span class="badge">Sale Properties</span>
+    <span class="badge">Local Property Agents</span>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Why Dial2Hire Can Be Useful for Property Search</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Search Property Listings</h3>
+      <p>
+        Users can explore sale and rental properties by city, locality, property type and budget. This helps buyers and tenants compare multiple property options before contacting the advertiser.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Post Property Online</h3>
+      <p>
+        Owners, builders and agents can post property details online and reach users searching for flats, rental homes, shops, offices and other real estate options.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Connect with Agents</h3>
+      <p>
+        Property seekers can find local property agents for buying, renting or selling property in different cities and nearby locations.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Important Dial2Hire Property Pages</h2>
+  <p>
+    These are useful Dial2Hire pages for users who want to post property, send property requirements, find agents or search flats in Navi Mumbai.
+  </p>
+
+  <div class="link-list">
+    <a class="link-box" href="https://dial2hire.com/user/property-post">
+      <strong>Post Property Online</strong>
+      Owners, builders and agents can post flats, houses, shops, offices and land properties on Dial2Hire.
+    </a>
+
+    <a class="link-box" href="https://dial2hire.com/buyer-inquiry/send-inquiry">
+      <strong>Send Buyer Inquiry</strong>
+      Buyers and tenants can submit property requirements and connect with relevant property advertisers.
+    </a>
+
+    <a class="link-box" href="https://dial2hire.com/property-agents">
+      <strong>Find Property Agents</strong>
+      Search local property agents for buying, renting or selling property in your preferred city or locality.
+    </a>
+
+    <a class="link-box" href="https://dial2hire.com/flats-for-sale-in-navi-mumbai">
+      <strong>Flats for Sale in Navi Mumbai</strong>
+      Compare flats, apartments and residential properties for sale in Navi Mumbai localities.
+    </a>
+
+    <a class="link-box" href="https://dial2hire.com/flats-for-rent-in-navi-mumbai">
+      <strong>Flats for Rent in Navi Mumbai</strong>
+      Search rental flats, apartments and ready-to-move homes in Navi Mumbai.
+    </a>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Post Property Online with Dial2Hire</h2>
+  <p>
+    Property owners, builders and real estate agents can use Dial2Hire to post property online and reach users actively searching for property options. A strong property listing should include the correct location, property type, sale or rent purpose, price, area, photos and clear contact details.
+  </p>
+
+  <p>
+    If you want to list your property, visit the <a href="https://dial2hire.com/user/property-post">post property online</a> page and add your property details. This can help your flat, shop, office, land or rental property become visible to potential buyers and tenants.
+  </p>
+
+  <div class="steps">
+    <div class="step">
+      <strong>Add property details</strong>
+      <p>Enter property type, location, price, area, description and contact information.</p>
+    </div>
+
+    <div class="step">
+      <strong>Upload useful images</strong>
+      <p>Clear property photos help buyers and tenants understand the property better.</p>
+    </div>
+
+    <div class="step">
+      <strong>Receive inquiries</strong>
+      <p>Interested users can contact the advertiser or send property-related inquiries.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Send Buyer Inquiry for Property Requirements</h2>
+  <p>
+    Dial2Hire also allows users to send a property requirement instead of only browsing listings. A buyer or tenant can submit location, budget, property type and other preferences so that relevant property options can be matched more easily.
+  </p>
+
+  <p>
+    Users looking for flats, shops, offices, plots or rental homes can use the <a href="https://dial2hire.com/buyer-inquiry/send-inquiry">send buyer inquiry</a> page to share their requirement and connect with suitable property advertisers or local agents.
+  </p>
+</section>
+
+<section class="section">
+  <h2>Find Property Agents on Dial2Hire</h2>
+  <p>
+    Local real estate agents play an important role in property search, especially when users need area knowledge, pricing guidance, site visits or nearby options. Dial2Hire provides a dedicated page to help users find property agents for buying, selling or renting property.
+  </p>
+
+  <p>
+    Users can visit the <a href="https://dial2hire.com/property-agents">property agents</a> page to explore local agents and connect for property requirements.
+  </p>
+</section>
+
+<section class="section">
+  <h2>Flats for Sale in Navi Mumbai</h2>
+  <p>
+    Navi Mumbai is one of the popular property markets for buyers looking for planned infrastructure, connectivity and residential growth. Buyers often search for flats in areas such as Kharghar, Panvel, Ulwe, Nerul, Vashi, Airoli, Taloja and nearby locations.
+  </p>
+
+  <p>
+    Dial2Hire provides a dedicated page for <a href="https://dial2hire.com/flats-for-sale-in-navi-mumbai">flats for sale in Navi Mumbai</a>, where users can compare available options by location, price, property type, area and advertiser details before making an inquiry.
+  </p>
+</section>
+
+<section class="section">
+  <h2>Flats for Rent in Navi Mumbai</h2>
+  <p>
+    Tenants searching for rental flats in Navi Mumbai usually compare rent, BHK type, furnishing status, connectivity, nearby offices, schools, markets and transport options. Dial2Hire helps users explore rental flats and apartments in Navi Mumbai based on practical search needs.
+  </p>
+
+  <p>
+    Users looking for rental homes can explore <a href="https://dial2hire.com/flats-for-rent-in-navi-mumbai">flats for rent in Navi Mumbai</a> and compare options before contacting owners, agents or advertisers.
+  </p>
+</section>
+
+<section class="section">
+  <h2>Who Can Use Dial2Hire?</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Buyers</h3>
+      <p>
+        Buyers can search property listings, compare localities and contact advertisers for flats, shops, offices, land and other real estate options.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Tenants</h3>
+      <p>
+        Tenants can explore flats for rent, rental homes, furnished apartments and locality-based rental options.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Owners & Agents</h3>
+      <p>
+        Owners, builders and agents can post property online, receive inquiries and promote property listings to interested users.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Frequently Asked Questions</h2>
+
+  <h3>What is Dial2Hire.com?</h3>
+  <p>
+    Dial2Hire.com is an Indian property listing platform where users can search properties, post property online, send buyer inquiries and find local property agents.
+  </p>
+
+  <h3>Can I post property online on Dial2Hire?</h3>
+  <p>
+    Yes. Owners, builders and agents can use the <a href="https://dial2hire.com/user/property-post">post property online</a> page to list sale and rental properties.
+  </p>
+
+  <h3>Can buyers send property requirements?</h3>
+  <p>
+    Yes. Buyers and tenants can submit requirements through the <a href="https://dial2hire.com/buyer-inquiry/send-inquiry">buyer inquiry</a> page.
+  </p>
+
+  <h3>Does Dial2Hire have property agents?</h3>
+  <p>
+    Yes. Users can explore the <a href="https://dial2hire.com/property-agents">property agents</a> page to find local real estate agents.
+  </p>
+
+  <h3>Can I search flats in Navi Mumbai?</h3>
+  <p>
+    Yes. Dial2Hire has pages for <a href="https://dial2hire.com/flats-for-sale-in-navi-mumbai">flats for sale in Navi Mumbai</a> and <a href="https://dial2hire.com/flats-for-rent-in-navi-mumbai">flats for rent in Navi Mumbai</a>.
+  </p>
+</section>
+
+<section class="cta-box">
+  <h2>Explore Property Options on Dial2Hire</h2>
+  <p>
+    Search properties, post your listing, send a buyer inquiry or connect with local property agents through Dial2Hire.com.
+  </p>
+
+  <div class="hero-buttons" style="justify-content:center;">
+    <a class="btn btn-primary" href="https://dial2hire.com">Visit Dial2Hire.com</a>
+    <a class="btn btn-secondary" href="https://dial2hire.com/user/property-post">Post Property</a>
+  </div>
+</section>
+
+<footer>
+  <p>
+    This informational article page is created to describe Dial2Hire.com and its property listing features.
+  </p>
+</footer>
+```
+
+  </main>
+
+</body>
+</html>
